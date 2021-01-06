@@ -2,8 +2,7 @@
 body{
     margin: 0 0;
     --orangegradient: linear-gradient(90deg,#CC8400,#FFA500,#FFB733);
-    background-color: rgb(240,240,240)
-    min-height: 1500vh;
+    background: url(../images/pattern.png) fixed;
 }
 
 html {
@@ -14,15 +13,6 @@ html {
     position: absolute;
     top: 5px;
     left: 15px;
-    
-}
-
-header{
-    
-    
-}
-
-.pagebody {
     
 }
 
@@ -52,17 +42,60 @@ nav ul{
     background: var(--orangegradient);
     border-radius: 0px 0px 5px 5px;  
     box-shadow: 20px 5px 30px #FFA500;
+    border: 1px solid #CC8400;
+    z-index: 2;
 }
 
-p{
-    font-size: 60px
-}
-
-#home{
+.sezione{
     position:relative;
-    top: 140px;
-    display:blocK;
+    top: 150px;
+}
+
+.icon{
+    display:block;
     margin-left: auto;
     margin-right: auto;
+}
 
+.selector:hover{
+    stroke: #0f0f0f;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    line-height: 0px;
+    color: #0048cc;
+}
+
+h3 {
+    font-size: 37px;
+}
+
+p {
+    font-size: 23px;
+    color: #0f0f0f;
+    text-align:justify;
+}
+
+.pagebody {
+    padding: 0 18px 18px 18px;
+}
+
+.pcard {
+    border: 1px solid #FFFEFE;
+    border-radius: 5px;
+    background-color: rgba(255,165,0,0.06);
+    padding:0 18px;
+    -webkit-backdrop-filter: blur(1px);
+    box-shadow: 30px 30px 35px rgb(0,0,0,0.25);
+    display: flex;
+}
+
+#projects {
+    padding:40px;
+}
+
+.emptycard{
+    height: 75px;
 }
