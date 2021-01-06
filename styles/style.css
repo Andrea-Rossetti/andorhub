@@ -9,32 +9,7 @@ html {
     font-family: 'Montserrat', sans-serif;
 }
 
-#eye {
-    position: absolute;
-    top: 5px;
-    left: 15px;
-    
-}
-
-.title {
-    font-size: 60px;
-    color: #F0F0F0;
-    text-shadow: -2px 0 #0f0f0f, 0 2px #0f0f0f, 2px 0 #0f0f0f, 0 -2px #0f0f0f;
-}
-
-nav li{
-    display: inline;
-    margin-right: 18px;
-    margin-left: 28px;
-}
-
-nav ul{
-    position: relative;
-    left: 108px;
-    
-}
-
-#head{
+header{
     position: fixed;
     top: 0px;
     left: 0px;
@@ -44,7 +19,25 @@ nav ul{
     box-shadow: 20px 5px 30px #FFA500;
     border: 1px solid #CC8400;
     z-index: 2;
+    
 }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.title {
+    font-size: 60px;
+    line-height: 0px;
+    color: #F0F0F0;
+    text-shadow: -2px 0 #0f0f0f, 0 2px #0f0f0f, 2px 0 #0f0f0f, 0 -2px #0f0f0f;
+}
+
+
+
 
 .sezione{
     position:relative;
